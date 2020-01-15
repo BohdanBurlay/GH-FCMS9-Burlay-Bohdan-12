@@ -1,0 +1,134 @@
+.logo {
+  display: block;
+  max-width: 108px;
+  height: 27px;
+}
+
+.navbar-light .navbar-nav .header-link {
+  font-family: $Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    color: #006944;
+  }
+}
+
+.search-icon {
+  width: 23px;
+  height: 23px;
+}
+
+.navbar-nav {
+  max-width: 700px;
+}
+
+.navbar-nav > li {
+  margin-left: 68px;
+
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+}
+
+.my-menu-logo-div {
+  max-width: 1269px;
+}
+
+.my-menu-icon {
+  background-image: url("../../src/img/031__list.png") !important;
+  margin-top: -30px;
+  float: right;
+  outline: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
+@media all and(min-width: 320px) and(max-width: 994px) {
+  .navbar-nav {
+    margin: 0 auto;
+  }
+}
+
+@media all and(min-width: 320px) and(max-width: 575px) {
+  .navbar-nav > li:nth-child(1) {
+    margin-left: 55px;
+  }
+}
+
+@media all and(min-width: 320px) and(max-width: 860px) {
+  .navbar-nav > li {
+    margin-left: 55px;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .hidden-link {
+    display: none;
+  }
+}
+
+.navbar-light .navbar-nav .footer-link {
+  opacity: 0.45;
+  color: #87949e;
+  font-family: $Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+
+  &:hover {
+    color: #87949e;
+    opacity: 1;
+  }
+}
+
+.my-menu-footer-list {
+  max-width: 644px;
+
+  & > li {
+
+    margin-left: 55px;
+  }
+}
+
+.footer-navbar {
+  position: relative;
+  max-width: 1400px;
+  margin-top: 78px;
+}
+
+@media all and(min-width: 320px) and(max-width: 388px) {
+  .footer-icon {
+    margin-top: 30px;
+  }
+}
+
+.footer-nav-title {
+  color: #87949e;
+  font-family: $Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  margin-left: 21px;
+}
+
+.my-menu-footer-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.nav-items {
+  justify-content: center;
+}

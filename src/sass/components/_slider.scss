@@ -1,0 +1,201 @@
+
+.slider-wrap-content {
+  max-width: 930px;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+
+  & > .slider-title {
+    font-family: $Raleway;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    color: white;
+  }
+
+  & > p {
+    font-family: $Raleway;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+
+@media all and(min-width: 320px) and(max-width: 1447px) {
+  .slider-wrap-content {
+    padding: 0 30px;
+  }
+  .my-carousel-control {
+    margin: 30px;
+  }
+}
+
+@media all and(min-width: 320px) and (max-width: 840px) {
+  .my-carousel-control {
+    display: none;
+  }
+}
+
+.learn-link {
+  width: 100%;
+  height: 100%;
+  max-width: 183px;
+  max-height: 47px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  margin-top: 63px;
+}
+
+
+.my-ind > li {
+  @include slider-ind;
+}
+
+.my-slider {
+  max-width: 1217px;
+  margin: 353px auto 0 auto;
+  padding-bottom: 100px;
+}
+
+.my-carousel-control {
+  width: 27px;
+  height: 53px;
+  margin-top: 26px;
+}
+
+.my-icon-right {
+  width: 27px;
+  height: 53px;
+  background-image: url("../../src/img/Right_Arrow.png");
+}
+
+.my-icon-left {
+  width: 27px;
+  height: 53px;
+  background-image: url("../../src/img/Left_Arrow.png");
+}
+
+.left {
+  margin-left: 100px;
+}
+
+.right {
+  margin-right: 100px;
+}
+
+.text-unique {
+  font-weight: 700;
+}
+
+.current-slide-item {
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  margin-left: 12px;
+  cursor: pointer;
+
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+
+  &:hover {
+    transition: 0.3s ease;
+    background-color: white;
+  }
+}
+
+.current-slide-item-js {
+  transition: 0.3s ease;
+  background-color: white;
+}
+
+.person {
+  max-width: 104px;
+  max-height: 104px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.my-carusel {
+  max-width: 885px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 123px;
+}
+
+.slider-content {
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 45px;
+}
+
+.slider-unique {
+  color: #17daa3;
+}
+
+@media all and(min-width: 320px) and(max-width: 1457px) {
+  .my-arrow-right, .my-arrow-left {
+    display: none;
+  }
+}
+
+.slider-text {
+  opacity: 0.3;
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 38px;
+}
+
+.span-fetch {
+  font-family: $Raleway;
+  font-weight: 300;
+  letter-spacing: 0.45px;
+}
+
+.my-slider-ind > li {
+  @include slider-ind;
+}
+
+.my-arrow-right, .my-arrow-left {
+  width: 27px;
+  height: 53px;
+}
+
+.my-arrow-right {
+  background-image: url("../../src/img/Right_Arrow.png");
+}
+
+.my-arrow-left {
+  background-image: url("../../src/img/Left_Arrow.png");
+}
+
+.arrows {
+  display: block;
+  width: 27px;
+  height: 53px;
+  margin-top: 137px;
+}
+
+.arrows-right {
+  margin-right: 166px;
+}
+
+.arrows-left {
+  margin-left: 166px;
+}
